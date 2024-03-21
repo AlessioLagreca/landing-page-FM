@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>
+      Frontend Mentor | Manage landing page
+    </title>
+  </head>
+  <body>
+
+    <wrapper>
+    <nav class="nav">
+      <img src="images/logo.svg" alt="logo" />
+      <ul class="nav-list">
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+      <button class="btn nav-btn">Get Started</button>
+      <img
+        src="images/icon-hamburger.svg"
+        alt="icon-hamburger"
+        class="nav-hamburger"
+      />
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          Bring everyone together to build better
+          products.
+        </h1>
+        <p class="hero-description">
+          Manage makes it simple for software
+          teams to plan day-to-day tasks while
+          keeping the larger team goals in view.
+        </p>
+        <button class="btn">Get Started</button>
+      </div>
+
+      <img
+        src="images/illustration-intro.svg"
+        alt="illustration-intro"
+      />
+    </section>
+  </wrapper>
+
+    <section class="features">
+      <div class="feature-text">
+        <h2 class="feature-title">
+          What’s different about Manage?
+        </h2>
+        <p class="feature-description">
+          Manage provides all the functionality
+          your team needs, without the complexity.
+          Our software is tailor-made for modern
+          digital product teams.
+        </p>
+      </div>
+
+      <div class="feature-list">
+        <div class="feature-item">
+          
+            <button class="feature-btn">01</button>
+            <h4 class="feature-item-title">
+              Track company-wide progress
+            </h4>
+
+        
+          <p class="feature-item-description">
+            See how your day-to-day tasks fit into the wider
+            vision. Go from tracking progress at the milestone
+            level all the way done to the smallest of details.
+            Never lose sight of the bigger picture again.
+          </p>  
+        </div>
+
+        <div class="feature-item">
+          
+            <button class="feature-btn">02</button>
+            <h4 class="feature-item-title">
+              Advanced built-in reports
+            </h4> 
+
+          <p class="feature-item-description">
+            Set internal delivery estimates and track progress
+            toward company goals. Our customisable dashboard
+            helps you build out the reports you need to
+            keep key stakeholders informed.
+          </p>  
+        </div>  
+
+        <div class="feature-item">
+          
+            <button class="feature-btn">03</button>
+            <h4 class="feature-item-title">
+              Everything you need in one place
+            </h4>
+
+          <p class="feature-item-description">
+            Stop jumping from one service to another to
+            communicate, store files, track tasks and share
+            documents. Manage offers an all-in-one team
+            productivity solution.
+          </p>
+        </div>
+    </section>
+
+    <h2 class="testimonials-title"> What they’ve said</h2>  
+
+    <section class="testimonials">
+          <div class="testimonial">
+            <img
+              src="images/avatar-anisha.png"
+              alt="avatar-anisha"
+              class="testimonials-img"
+            />
+            <h3 class="testimonials-name">Anisha Li</h3>
+            <p class="testimonials-text">
+              “Manage has supercharged our team’s workflow.
+              The ability to maintain visibility on larger
+              milestones at all times keeps everyone
+              motivated.”
+            </p>  
+          </div>
+
+          <div class="testimonial">
+            <img
+              src="images/avatar-ali.png"
+              alt="avatar-ali"
+              class="testimonials-img"
+            />
+            <h3 class="testimonials-name">Ali Bravo</h3>  
+            <p class="testimonials-text">
+              “We have been able to cancel so many
+              other subscriptions since using Manage. There
+              is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <img
+              src="images/avatar-richard.png"
+              alt="avatar-richard"
+              class="testimonials-img"
+            />
+            <h3 class="testimonials-name">Richard Watts</h3> 
+            <p class="testimonials-text">
+              “Manage allows us to provide structure and
+              process. It keeps us organized and focused.
+              I can’t stop recommending them to everyone I
+              talk to!”
+            </p>  
+          </div>
+
+          <div class="testimonial">
+            <img
+              src="images/avatar-shanai.png"
+              alt="avatar-shanai"
+              class="testimonials-img"
+            />
+            <h3 class="testimonials-name">Shanai Gough</h3>
+            <p class="testimonials-text">
+              “Their software allows us to track, manage and
+              collaborate on our projects from anywhere. It
+              keeps the whole team in-sync without being
+              intrusive.”
+            </p>  
+          </div>
+    </section>  
+    <!-- <section class=" swiper-container">
+      <div class="testimonials swiper-wrapper">
+          <div class="testimonial swiper-slide">
+              <img src="images/avatar-anisha.png" alt="avatar-anisha" class="testimonials-img">
+              <h3 class="testimonials-name">Anisha Li</h3>
+              <p class="testimonials-text">“Manage has supercharged our team’s workflow.
+                  The ability to maintain visibility on larger
+                  milestones at all times keeps everyone
+                  motivated.”</p>
+          </div>
+  
+          <div class="testimonial swiper-slide">
+              <img src="images/avatar-ali.png" alt="avatar-ali" class="testimonials-img">
+              <h3 class="testimonials-name">Ali Bravo</h3>
+              <p class="testimonials-text">“We have been able to cancel so many
+                  other subscriptions since using Manage. There
+                  is no more cross-channel confusion and
+                  everyone is much more focused.”</p>
+          </div>
+  
+          <div class="testimonial swiper-slide">
+              <img src="images/avatar-richard.png" alt="avatar-richard" class="testimonials-img">
+              <h3 class="testimonials-name">Richard Watts</h3>
+              <p class="testimonials-text">“Manage allows us to provide structure and
+                  process. It keeps us organized and focused.
+                  I can’t stop recommending them to everyone I
+                  talk to!”</p>
+          </div>
+  
+          <div class="testimonial swiper-slide">
+              <img src="images/avatar-shanai.png" alt="avatar-shanai" class="testimonials-img">
+              <h3 class="testimonials-name">Shanai Gough</h3>
+              <p class="testimonials-text">“Their software allows us to track, manage and
+                  collaborate on our projects from anywhere. It
+                  keeps the whole team in-sync without being
+                  intrusive.”</p>
+          </div>
+      </div>
+
+  </section> -->
+  
+  <section class="section-btn">
+    <button class="btn">Get Started</button>
+  </section>
+
+  <section class="call-to-action">
+    <h2 class="call-to-action-title">Simplify how your team works today.</h2>
+    <button class="btn3">Get Started</button>
+  </section>
+
+  <footer class="footer">
+    <div class="item-col">
+      <img src="images/logo.svg" alt="logo">
+      <div class="socials">
+        <img src="images/icon-facebook.svg" alt="facebook">
+        <img src="images/icon-pinterest.svg" alt="pinterest">
+        <img src="images/icon-twitter.svg" alt="twitter">
+        <img src="images/icon-instagram.svg" alt="instagram">
+        <img src="images/icon-youtube.svg" alt="youtube">
+      </div>
+    </div>
+
+    <div class="item-col-mid">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="item-col">
+      <div style="display: flex; gap: 0.5rem ;">
+        <button class="btn4"><input class="btn-input" type="email" placeholder="Updates in your inbox…"></button>
+        <button class="btn">GO</button>
+      </div>
+      <span class="copyright">Copyright 2024. All Rights Reserved</span>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
