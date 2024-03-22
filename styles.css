@@ -17,12 +17,33 @@ body {
   font-size: 16px;
   color: var(--very-dark-blue);
   margin: 0 10rem;
+  position: relative;
+
+  overflow-x: hidden;
 }
 
 .wrapper {
-  background-image: url("images/bg-simplify-section-desktop.svg");
-  background-repeat: no-repeat;
-  fill: var(--bright-red);
+  width: 100%;
+}
+
+.background-svg {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  z-index: -1;
+}
+
+.background-svg2 {
+  position: absolute;
+  bottom: 25%;
+  left: -35%;
+  z-index: -1;
+}
+
+.background-svg3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* NAVBAR */
@@ -260,6 +281,7 @@ a {
   margin-right: -10rem;
   padding: 5rem 10rem;
   background-color: var(--bright-red);
+  position: relative;
 }
 
 .call-to-action-title {
@@ -295,7 +317,7 @@ footer {
   color: white;
   margin-left: -10rem;
   margin-right: -10rem;
-  padding: 3rem 10rem;
+  padding: 5rem 10rem;
 }
 
 .item-col {
